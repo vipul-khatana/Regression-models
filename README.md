@@ -26,11 +26,11 @@ Using the gradient descent algorithm we update the value of the parameter theta 
 
 + **Softmax Regression** - Since the Logistic Regression mentioned above can only be used for binary classification, in this part I try to implement the softmax regressor which can also be used for multi-class classification. The hypothesis function is given by 
 
-<img src="hypothesis2.png" alt="Drawing" width="200" height="100"/><img src="hypothesis3.png" alt="Drawing" width="200" height="100"/>
+<img src="hypothesis2.png" alt="Drawing" width="200" height="100"/><img src="hypothesis3.png" alt="Drawing" width="300" height="200"/>
 
 We maximise the log likelihood by using the gradient descent. The equation for the log-likelihood is given below. 
 
-<img src="log.png" alt="Drawing" width="200" height="100"/><img src="log2.png" alt="Drawing" width="200" height="100"/>
+<img src="log1.png" alt="Drawing" width="200" height="100"/><img src="log2.png" alt="Drawing" width="200" height="100"/>
 
 + **Gaussian Discriminant Analysis** - Gaussian discriminant analysis is a method of data classification generally used when data can be approximated with a normal distribution. Using the training set we first of all train a classifier, and then obtain a discriminant function which tells us the class to which a data point has higher probability of belonging to. Then we calculate the mean and standard deviation, two parameters that define a normal distribution, for the data set. Once we have computed the normal distribution for each class, we calcualte the probability of the point belonging to a class and draw the decision boundary. 
 
