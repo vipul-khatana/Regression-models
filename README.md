@@ -26,8 +26,7 @@ Using the gradient descent algorithm we update the value of the parameter theta 
 
 + **Softmax Regression** - Since the Logistic Regression mentioned above can only be used for binary classification, in this part I try to implement the softmax regressor which can also be used for multi-class classification. The hypothesis function is given by 
 
-<img src="hypothesis2.png" alt="Drawing" width="100" height="100"/>
-                                                                   <img src="hypothesis3.png" alt="Drawing" width="300" height="200"/>
+<img src="hypothesis2.png" alt="Drawing" width="100" height="100"/><img src="hypothesis3.png" alt="Drawing" width="300" height="200"/>
 
 We maximise the log likelihood by using the gradient descent. The equation for the log-likelihood is given below. 
 
