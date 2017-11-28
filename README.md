@@ -26,7 +26,8 @@ Using the gradient descent algorithm we update the value of the parameter theta 
 
 + **Softmax Regression** - Since the Logistic Regression mentioned above can only be used for binary classification, in this part I try to implement the softmax regressor which can also be used for multi-class classification. The hypothesis function is given by 
 
-<img src="hypothesis2.png" alt="Drawing" width="100" height="100"/><img src="hypothesis3.png" alt="Drawing" width="300" height="200"/>
+<img src="hypothesis2.png" alt="Drawing" width="100" height="100"/>
+                                                                   <img src="hypothesis3.png" alt="Drawing" width="300" height="200"/>
 
 We maximise the log likelihood by using the gradient descent. The equation for the log-likelihood is given below. 
 
@@ -43,7 +44,7 @@ These libraries can be installed by using the pip installer
 If you have pip installed on your system then use `pip install library_name` to install the required library. 
 If you do not have pip then please look [here](https://pip.pypa.io/en/stable/installing/) on how to install pip
 
-## Usage 
+## How to run 
 Please include the training and test data sets in a .csv format. 
 The format for the name of the training data should be `train_data_filename.csv` 
 For training labels it should be `train_label_filename.csv`
@@ -63,3 +64,11 @@ where filename is
 * [Vipul Khatana](https://github.com/vipul-khatana)
 
 Course project under [**Prof. Jayadeva**](http://jayadeva.net) 
+
+## Contributing
+
+1) Fork it (https://github.com/vipul-khatana/Regression-models/fork)
+2) Create your feature branch `git checkout -b feature/fooBar`
+3) Commit your changes `git commit -am 'Add some fooBar'`
+4) Push to the branch `git push origin feature/fooBar`
+5) Create a new pull request 
