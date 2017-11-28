@@ -1,6 +1,14 @@
 # Regression-models
 Various regression models including logistic, linear and softmax regressors
 
+## Sections 
++ [Overview](https://github.com/vipul-khatana/Regression-models#overview)
++ [Principles used](https://github.com/vipul-khatana/Regression-models#principles-used)
++ [Installation](https://github.com/vipul-khatana/Regression-models#installation)
++ [How to run](https://github.com/vipul-khatana/Regression-models#how-to-run)
++ [Author](https://github.com/vipul-khatana/Regression-models#author)
++ [Contributing](https://github.com/vipul-khatana/Regression-models#contributing)
+
 ## Overview
 The basic objective of the code is to provide various regression models, which can be used for supervised learning. Linear regression is applied to predict the house prices. A modified version of the linear regression, locally weighted linear regression is also implemented. Conditions under which we may over fit or under fit the data are also observed with the various plots. Gaussian Discriminant Analysis and Logistic Regression are the basic methods used for binary classification while softmax regressor finds its use in multi class classification. A brief explanation of these models are given below. 
 
