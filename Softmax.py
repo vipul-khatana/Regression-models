@@ -1,3 +1,7 @@
+'''
+Created Sat Feb 13 2016 
+@author vipulkhatana
+'''
 import numpy as np 
 import pandas as pd
 
@@ -8,9 +12,10 @@ test_data = pd.read_csv("test_data_Softmax.csv",header=None)
 m = len(training_data)
 k = 26
 n = 16
-lamda          = 0.0001 # weight decay parameter
+lamda = 0.0001 # weight decay parameter
 max_iterations = 100 
 result = []
+
 
 def ground_truth(i,j):
 	if(training_labels.iloc[i,0]== j+1):
