@@ -1,7 +1,6 @@
 '''
-==================================
-Locally Weighted Linear Regression
-==================================
+Created Sat Feb 13 2016 
+@author vipulkhatana
 
 '''
 
