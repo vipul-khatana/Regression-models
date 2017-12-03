@@ -4,7 +4,7 @@ Various regression models including logistic, linear and softmax regressors
 ## Sections 
 + [Overview](https://github.com/vipul-khatana/Regression-models#overview)
 + [Principles used](https://github.com/vipul-khatana/Regression-models#principles-used)
-+ [Libraries](https://github.com/vipul-khatana/Regression-models#installation)
++ [Libraries](https://github.com/vipul-khatana/Regression-models#libraries)
 + [How to run](https://github.com/vipul-khatana/Regression-models#how-to-run)
 + [Author](https://github.com/vipul-khatana/Regression-models#author)
 + [Contributing](https://github.com/vipul-khatana/Regression-models#contributing)
