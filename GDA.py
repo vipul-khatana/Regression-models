@@ -3,6 +3,8 @@
 Gaussian Discriminant Analysis
 =============================
 
+Created on Mon Feb 15 2016
+@author: vipulkhatana
 '''
 
 import numpy as np
