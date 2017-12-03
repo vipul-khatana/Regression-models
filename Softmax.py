@@ -16,13 +16,13 @@ lamda = 0.0001 # weight decay parameter
 max_iterations = 100 
 result = []
 
-
+# ground truth, accuracy of training set's classification 
 def ground_truth(i,j):
 	if(training_labels.iloc[i,0]== j+1):
 		return 1
 	else:
 		return 0	
-
+# cost function
 def costFun(theta,matrix):	
 	theta_grad = np.zeros((k,n))
 	value = np.zeros(m)
@@ -44,13 +44,12 @@ def costFun(theta,matrix):
 	
 	return theta_grad
 
+# softmax regressor 
 def Softmax():
 	 
 	print (m)
 	print (k)
-
 	theta = np.zeros((k,n))
-	
 	matrix = np.zeros((k,m))
 
 	for i in range(1,30):
@@ -69,6 +68,8 @@ test_data = pd.read_csv("test_data_Softmax.csv",header=None)
 trained_theta = pd.read_cs("trained.csv",header=None)
 
 result = []
+
+# prediction 
 def predict(theta,matrix):
 
 	for i in range(0,m):
