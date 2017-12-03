@@ -1,7 +1,6 @@
 '''
-===================
-Logistic Regression
-===================
+Created Wed Feb 17 2016 
+@author vipulkhatana
 
 '''
 import csv
