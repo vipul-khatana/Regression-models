@@ -4,7 +4,7 @@ Various regression models including logistic, linear and softmax regressors
 ## Sections 
 + [Overview](https://github.com/vipul-khatana/Regression-models#overview)
 + [Principles used](https://github.com/vipul-khatana/Regression-models#principles-used)
-+ [Installation](https://github.com/vipul-khatana/Regression-models#installation)
++ [Libraries](https://github.com/vipul-khatana/Regression-models#installation)
 + [How to run](https://github.com/vipul-khatana/Regression-models#how-to-run)
 + [Author](https://github.com/vipul-khatana/Regression-models#author)
 + [Contributing](https://github.com/vipul-khatana/Regression-models#contributing)
@@ -42,7 +42,7 @@ We maximise the log likelihood by using the gradient descent. The equation for t
 
 + **Gaussian Discriminant Analysis** - Gaussian discriminant analysis is a method of data classification generally used when data can be approximated with a normal distribution. Using the training set we first of all train a classifier, and then obtain a discriminant function which tells us the class to which a data point has higher probability of belonging to. Then we calculate the mean and standard deviation, two parameters that define a normal distribution, for the data set. Once we have computed the normal distribution for each class, we calcualte the probability of the point belonging to a class and draw the decision boundary. 
 
-## Installation 
+## Libraries 
 Following libraries are required along with python : 
 numpy, matplotlib, mpl_toolkits.mplot3d, pandas. 
 
