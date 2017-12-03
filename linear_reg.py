@@ -1,7 +1,6 @@
 '''
-=================
-Linear Regression
-=================
+Created Sun Feb 14 2016 
+@author vipulkhatana
 
 '''
 
